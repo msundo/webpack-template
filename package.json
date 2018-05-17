@@ -1,0 +1,52 @@
+{
+  "name": "addition-webpack",
+  "version": "1.0.0",
+  "main": "webpack.config.babel.js",
+  "author": "Frederik Bosch",
+  "license": "MIT",
+  "standard": "true",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "webpack-dev-server --mode development",
+    "build": "yarn install --silent --loglevel=error && cross-env NODE_ENV=production webpack -p --progress --display=errors-only",
+    "test": "standard",
+    "stats": "webpack -p --json > stats.json"
+  },
+  "devDependencies": {
+    "autoprefixer": "^8.5.0",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.1",
+    "cross-env": "^5.1.4",
+    "css-loader": "^0.28.11",
+    "fs": "^0.0.1-security",
+    "handlebars-loader": "^1.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "import-glob-loader": "^1.1.0",
+    "mini-css-extract-plugin": "^0.4.0",
+    "node-sass": "^4.9.0",
+    "path": "^0.12.7",
+    "postcss-loader": "^2.1.5",
+    "postcss-object-fit-images": "^1.1.2",
+    "sass-loader": "^7.0.1",
+    "standard": "^11.0.1",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.8.1",
+    "webpack-cli": "^2.1.3",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-visualizer-plugin": "^0.1.11",
+    "workbox-webpack-plugin": "^3.2.0"
+  },
+  "dependencies": {
+    "core-js": "^2.5.6",
+    "element-closest": "^2.0.2",
+    "nodelist-foreach-polyfill": "^1.2.0",
+    "object-fit-images": "^3.2.3",
+    "picturefill": "^3.0.2"
+  }
+}
