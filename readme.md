@@ -7,7 +7,7 @@
 3. ```git init```
 4. ```git remote add origin <url>```
 
-then proceed to commit and push the copied repo
+then proceed to commit and push the copied repository.
 
 ---
 ## Features
@@ -15,7 +15,8 @@ then proceed to commit and push the copied repo
 * [Webpack](https://webpack.js.org/)
 * ES6 transpilation using [Babel](https://babeljs.io/)
 * [Polyfills](/src/scripts/polyfills.js) for older browsers — [core-js](https://github.com/zloirock/core-js), [nodelist-foreach](https://github.com/imagitama/nodelist-foreach-polyfill) & [object-fit-images](https://github.com/bfred-it/object-fit-images)
-* [Handlebars](http://handlebarsjs.com/) templating
+* SCSS compilation with [PostCSS](https://github.com/postcss/postcss) transforms for autoprefixing and automatic bug fixes.
+* [Handlebars](http://handlebarsjs.com/) for templating
 
 ## Getting Started
 #### Pre-dependencies
