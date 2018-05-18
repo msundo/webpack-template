@@ -2,12 +2,19 @@
 
 ## Downloading Template
 
-1. ```git clone https://github.com/AdditionDev/webpack-template.git <destination>```
-2. ```git rm .git```
-3. ```git init```
-4. ```git remote add origin <url>```
+1. **Clone this repository to a new folder**
 
-then proceed to commit and push the copied repository.
+    `git clone https://github.com/AdditionDev/webpack-template.git <destination> `
+
+2. **Navigate to the newly cloned repository folder**
+3. **Delete the existing `.git` folder**
+
+3. **Re-initialize as a new repository**
+
+    `git init`
+4. **Add origin to github repo**
+
+    `git remote add origin <url>`
 
 ---
 ## Features
