@@ -1,10 +1,21 @@
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
+## Downloading Template
+
+1. ```git clone https://github.com/AdditionDev/webpack-template.git <destination>```
+2. ```git rm .git```
+3. ```git init```
+4. ```git remote add origin <url>```
+
+then proceed to commit and push the copied repo
+
+---
 ## Features
+
 * [Webpack](https://webpack.js.org/)
 * ES6 transpilation using [Babel](https://babeljs.io/)
 * [Polyfills](/src/scripts/polyfills.js) for older browsers — [core-js](https://github.com/zloirock/core-js), [nodelist-foreach](https://github.com/imagitama/nodelist-foreach-polyfill) & [object-fit-images](https://github.com/bfred-it/object-fit-images)
 * [Handlebars](http://handlebarsjs.com/) templating
-* [StandardJS](https://github.com/standard/standard) code styling
 
 ## Getting Started
 #### Pre-dependencies
